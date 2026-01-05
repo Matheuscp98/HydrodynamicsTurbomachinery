@@ -1,6 +1,6 @@
 # 🌀 Heat transfer in turbomachinery using Computational Fluid Dynamics
 
-**DOI:** 
+**DOI:** [10.5281/zenodo.18155760](https://doi.org/10.5281/zenodo.18155760)
 
 ---
 
