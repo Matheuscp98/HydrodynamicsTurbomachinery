@@ -1,11 +1,11 @@
 # 🌀 Database Hydrodynamic System
 
-**DOI:** [10.5281/zenodo.18166909](https://doi.org/10.5281/zenodo.18166909)
+**DOI:**
 
 ---
 
 ## 📝 Description
-The dataset represents a parametric **Computational Fluid Dynamics** (CFD) study of an axial hydraulic turbine inlet duct, modeled in accordance with IEC 60193 recommendations.
+The dataset represents a parametric **Computational Fluid Dynamics** (CFD) study of an axial hydraulic turbine inlet duct, modeled in accordance with IEC 60193 recommendations, with target results derived from laboratory experiments performed on a reduced‑scale test bench
 
 Each record corresponds to a CFD simulation conducted according to a **Central Composite Design** (CCD) with **five independent variables** (control factors) and **fourteen dependent variables** (performance metrics).
 
@@ -26,7 +26,7 @@ This repository is part of the research study:
 ## 🛠️ How to Use
 1. Clone or download this repository.  
 2. Open '.csv' files with **Python (pandas)**, **R**, **Microsoft Excel**, **Google Sheets**, or other software .
-5. Use [**Database Heat Transfer**](database.csv) as the **main dataset**.
+5. Use [**Hydrodynamic System Data**](database.csv) as the **main dataset**.
 ---
 
 ## 📂 Repository Structure
@@ -34,7 +34,7 @@ This repository is part of the research study:
 | File | Description |
 |------|-------------|
 | [**README**](README.md) | Documentation of the dataset and repository usage. |
-| [**Database Heat Transfer**](database.csv) | Main dataset. |
+| [**Hydrodynamic System Data**](database.csv) | Main dataset. |
 
 ---
 
@@ -47,7 +47,6 @@ This repository is part of the research study:
 | MS | Outlet mesh size | mm | 1.5 – 4.0 |
 | ṁ | Mass flow rate | kg/s | 22.455 – 34.930 |
 | CC | Convergence criterion (RMS) | – | 1×10⁻⁵ – 1×10⁻⁴ |
-
 
 **Outputs:**
 | Symbol | Description | Unit |
